@@ -1,0 +1,43 @@
+{
+  "name": "nodes-typedoc-theme",
+  "description": "Nodes ApS theme for TypeDoc.",
+  "version": "0.0.1",
+  "homepage": "http://www.nodesagency.com/",
+  "main": "bin/plugin.js",
+  "files": [
+    "bin",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "rimraf bin",
+    "grunt": "grunt",
+    "build": "npm run clean && npm run grunt",
+    "prepublish": "npm run build"
+  },
+  "author": {
+    "name": "Dennis Haulund Nielsen <dhni@nodes.dk>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nodes-frontend/nodes-typedoc-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodes-frontend/nodes-typedoc-theme/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  },
+  "devDependencies": {
+    "foundation-sites": "^6.3.0",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-sass": "^2.0.0",
+    "open-color": "^1.4.2",
+    "rimraf": "^2.5.4"
+  }
+}
