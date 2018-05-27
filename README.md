@@ -1,4 +1,4 @@
-# Default themes for TypeDoc
+# ⛔️ [DEPRECATED] Default themes for TypeDoc
 
 This module contains the default themes of TypeDoc.
 Visit http://typedoc.org/ to learn more about TypeDoc.
